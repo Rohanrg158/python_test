@@ -1,5 +1,7 @@
 '''
-Write a Python program that demonstrates the usage of arithmetic, comparison, and logical operators. Perform a few operations and print the results.
+Author: Rohan 
+Date: 18-10-2024
+Description: Write a Python program that demonstrates the usage of arithmetic, comparison, and logical operators. Perform a few operations and print the results.
 '''
 a=int(input("Enter the first number: "))
 b=int(input("Enter the second number: "))
