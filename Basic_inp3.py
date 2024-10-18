@@ -1,8 +1,8 @@
 '''
 Write a Python program that demonstrates the usage of arithmetic, comparison, and logical operators. Perform a few operations and print the results.
 '''
-a=20
-b=10
+a=int(input("Enter the first number: "))
+b=int(input("Enter the second number: "))
 print("sum: ",a+b,"Division: ",a/b)
 var1=(a>b)
 print("Is a greater than b?:",var1)
