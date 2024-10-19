@@ -1,0 +1,12 @@
+import datetime
+current= datetime.datetime.now()
+format_1=current.strftime("%Y-%m-%d %H %M %S")
+format_2=current.strftime("%m/%d/%Y")
+format_3=current.strftime("%a, %b %d, %Y")
+format_4=current.strftime("%a, %b %d, %Y %H:%M:%S %p")
+format_5=current.strftime("%a-%b-%d %H:%M:%S %Z %Y")
+format_6=current.strftime("%m/%d/%Y")
+format_7=current.strftime("%H:%M:%S %p")
+format_8=current.strftime("%B")
+format_9=current.strftime("%Y")
+print(format_1,'\n',format_2,'\n',format_3,'\n',format_4,'\n',format_5,'\n',format_6,'\n',format_7,'\n',format_8,'\n',format_9)
