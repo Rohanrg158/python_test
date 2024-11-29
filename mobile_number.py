@@ -1,4 +1,5 @@
 def mobile_number(number):
+
     number_length=len(number)
     if number_length==10:
         if number[0]=="7":
@@ -11,5 +12,5 @@ def mobile_number(number):
             print("Invalid mobile number")
     else:
         print("Invalid mobile number")
-
-mobile_number("9976538654")
+num= input("Enter mobile number: ")
+mobile_number(num)
