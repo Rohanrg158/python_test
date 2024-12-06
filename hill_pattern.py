@@ -7,7 +7,7 @@ for i in range(1,n+1):
     print()
 
 # Decreasing triangle
-for k in range(n+1,0,-1):
+for k in range(n,0,-1):
     for l in range(k):
         print('*', end=" ")
     print()
