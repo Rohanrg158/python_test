@@ -1,10 +1,12 @@
 def fibonacci(n):
-    if n<0:
-        print("Incorrect input")
-    elif n==0:
-        return 0
-    elif n==1 or n==2:
-        return 1
-    else:
-        return fibonacci(n-1)+fibonacci(n-2)
-print(fibonacci(9))
+    num1=0
+    num2=1
+    new_number=num2
+    count=1
+    while count<=n-1:
+        print(new_number,end=" ")
+        count+=1
+        num1, num2= num2, new_number
+        new_number =num1+num2
+    print()
+fibonacci(9)
